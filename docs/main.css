@@ -1,0 +1,135 @@
+@import "http://fonts.fontstorage.com/import/butler.css";
+
+html. body {
+    position: relative;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 1200px;
+    height: 650px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    -webkit-box-shadow: 0px 35px 121px -39px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 35px 121px -39px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 35px 121px -39px rgba(0, 0, 0, 0.75);
+}
+
+.card-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+
+}
+
+.left-content {
+    font-family: 'Butler';
+    width: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+
+}
+
+.travel {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4.98px;
+    font-weight: 400;
+    line-height: 1.04;
+    margin-top: 3px;
+    
+   margin: -13px 0 0 13px;
+}
+
+.destinations {
+    font-size: 49px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    margin: 0 0 44px 0;
+    line-height: 1;
+    margin-left: 13px;
+}
+
+.text {
+    font-size: 30px;
+    color: #f36f4a;
+    letter-spacing: 1.5px;
+    margin-left: 9px;
+   
+}
+.text1{
+    font-size: 30px;
+    color: #f36f4a;
+    letter-spacing: 1.5px;
+    margin-bottom: 66px;
+    margin-left:9px;
+    margin-top: -2px;
+   
+}
+
+.card-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url(img/img.jpg);
+    background-repeat: no-repeat;
+	background-position: top right;
+    background-size: cover;   
+    
+
+
+
+
+}
+
+.start {
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Butler';
+    text-transform: uppercase;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 70px;
+    border-style: solid;
+    width: 340px;
+    height: 70px;
+    display: inline-block;
+    line-height: 1;
+    padding-top: 23px;
+    padding-left: 22px;
+    -webkit-transition: 0.2s else-in;
+    -o-transition: 0.2s else-in;
+    transition: 0.2s else-in;
+    margin-left: -3px;
+}
+
+.start:hover {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: #e3e3e7;
+
+}
