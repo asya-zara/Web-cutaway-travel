@@ -4,4 +4,4 @@
 - HTML/CSS 
 -PixelPerfect
 ***
-Preview:https://asya-zara.github.io/Web-cutaway-travel/
+Preview:  https://asya-zara.github.io/Web-cutaway-travel/
