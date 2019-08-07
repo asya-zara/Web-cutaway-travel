@@ -2,6 +2,6 @@
 ## Card travel
 ### tech include:
 - HTML/CSS 
--PixelPerfect
+- PixelPerfect
 ***
 **Preview:  https://asya-zara.github.io/Web-cutaway-travel/**
